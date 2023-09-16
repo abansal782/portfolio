@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Grid, Box, Typography} from "@mui/material";
 import { useTranslation } from "react-i18next";
 import '../App.css';
-import garima from  "../Images/Garima.png";
+//import garima from  "../Images/Garima.png";
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ export const Header = () => {
     </Typography>
     </Grid>
     <Grid item md={6}>
-    <img src={garima} className='App-logo' alt="logo" />
+    {/* <img src={garima} className='App-logo' alt="logo" /> */}
     </Grid>
     </Grid>
     </Box>
